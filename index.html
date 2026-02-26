@@ -444,7 +444,7 @@
                                                         <p className="font-mono text-sm font-bold text-[#5D5740] leading-tight">¥{ex.amount.toLocaleString()}</p>
                                                         <p className="text-[9px] text-[#A09980] leading-tight">≈ ${Math.round(ex.amount * rate)}</p>
                                                     </div>
-                                                    <button onClick={() => removeExpense(id)} className="text-[#D0C9B0] hover:text-morandi-pink transition-colors p-1">
+                                                    <button onClick={() => removeExpense(ex.id)} className="text-[#D0C9B0] hover:text-morandi-pink transition-colors p-1">
                                                         <Trash2 size={14} />
                                                     </button>
                                                 </div>
