@@ -1,5 +1,0 @@
-{
-  "name": "沖繩旅遊助手 2026",
-  "description": "專為沖繩旅行設計的導遊級工具，包含行程連動天氣、即時記帳匯率換算、購物清單圖片壓縮存檔及緊急資訊。",
-  "requestFramePermissions": ["geolocation"]
-}
